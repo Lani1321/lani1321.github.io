@@ -2076,6 +2076,7 @@
 
 			.image.fit img {
 				width: 100%;
+				height: 186px;
 			}
 
 		.image.avatar {
@@ -2484,7 +2485,9 @@
 		background-image: url("images/overlay.png"), url("../../images/thailand.png");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		/*background-size: auto,								auto 100%;*/
+		background-size: 40% 120%;
+
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2498,7 +2501,7 @@
 		#header background-image {
 			height: 100%;
 		}
-		
+
 		#header > * {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
@@ -3129,3 +3132,7 @@
 			}
 
 	}
+
+#quote {
+	text-align: right;
+}

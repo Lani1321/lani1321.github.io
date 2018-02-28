@@ -2080,7 +2080,7 @@
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 15%;
 		}
 
 			.image.avatar:before {
@@ -2530,7 +2530,7 @@
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
-			margin: 0;
+			margin: -15px;
 		}
 
 		#header .image.avatar {
@@ -2541,7 +2541,7 @@
 /* Footer */
 
 	#footer .icons {
-		margin: 1em 0 0 0;
+		margin: 5em 0 0 0;
 	}
 
 		#footer .icons a {
